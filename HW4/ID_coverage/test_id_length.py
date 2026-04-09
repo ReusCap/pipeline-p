@@ -1,6 +1,6 @@
 # test_id_length.py
 import unittest
-import id_validator
+import HW4.ID_coverage.id_validator as id_validator
 
 class TestIDLength(unittest.TestCase):
     def test_length(self):

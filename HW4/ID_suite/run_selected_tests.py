@@ -1,6 +1,6 @@
 import unittest
-from test_length import TestLength
-from test_format import TestFormat
+from HW4.ID_suite.test_length import TestLength
+from HW4.ID_suite.test_format import TestFormat
 
 # 1. 테스트 스위트 생성
 suite = unittest.TestSuite()

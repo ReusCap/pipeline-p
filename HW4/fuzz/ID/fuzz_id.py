@@ -1,6 +1,6 @@
 # fuzz_id.py
 from hypothesis import given, strategies as st, settings
-from id import IDValidator
+from HW4.fuzz.ID.id import IDValidator
 import pytest
 
 # 테스트 대상 객체 생성

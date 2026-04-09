@@ -1,6 +1,6 @@
 # test_id_format.py
 import unittest
-import id_validator
+import HW4.ID_coverage.id_validator as id_validator
 
 class TestIDFormat(unittest.TestCase):
     def test_format(self):

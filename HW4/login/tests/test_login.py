@@ -1,7 +1,7 @@
 # test_login.py
 import unittest
 from unittest.mock import Mock
-from src.login import LoginManager, AuthService
+from HW4.login.src.login import LoginManager, AuthService
 
 class TestLoginManagerWithMock(unittest.TestCase):
     def setUp(self):
